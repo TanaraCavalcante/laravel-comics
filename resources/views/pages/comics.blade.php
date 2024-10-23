@@ -1,11 +1,13 @@
 @extends("layouts.app")
 
+@dump($comics)
+
 @section("page-title", "comics")
 
 @section("main-content")
 
 <h1>
-    Home main
+    comics main
 </h1>
 
 @endsection
