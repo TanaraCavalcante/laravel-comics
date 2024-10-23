@@ -13,11 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('pages.home');
-});
 
-Route::get('/comics', function () {
+
+Route::get('/', function () {
     $comics = config("db.comics");
     return view('pages.comics', compact("comics"));
-});
+ });//->name("comics"); "posso renomear assim!"
