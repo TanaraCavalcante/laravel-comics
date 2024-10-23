@@ -1,1 +1,15 @@
 @use "~bootstrap/scss/bootstrap" as *;
+
+header{
+    color: red;
+}
+
+//!--------- COMICS PAGE --------------
+div.card {
+    border: none;
+    width: 13rem;
+}
+
+div.card.img {
+    height: 10rem;
+}
