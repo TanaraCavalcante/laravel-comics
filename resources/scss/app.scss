@@ -1,10 +1,20 @@
 @use "~bootstrap/scss/bootstrap" as *;
 
-header{
-    color: red;
+//!--------- HEADER PAGE --------------
+#header-input {
+  border: none;
+  border-radius: 0%;
+  border-bottom: 2px solid rgb(0, 89, 255);
 }
 
 //!--------- COMICS PAGE --------------
+#jumbotron{
+    height: 25rem;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 5rem;
+}
+
 div.card {
     border: none;
     width: 13rem;

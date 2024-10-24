@@ -3,6 +3,7 @@
 @section("page-title", "comics")
 
 @section("main-content")
+    <img id="jumbotron" src="{{ Vite::asset("resources/img/jumbotron2.jpg")}}" alt="jumbotron">
     <div class="container">
         <div class="row justify-content-center">
             @foreach ($comics as $comic)
