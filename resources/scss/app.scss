@@ -10,6 +10,8 @@ div.card {
     width: 13rem;
 }
 
-div.card.img {
-    height: 10rem;
+div.card img {
+    height: 13rem;
+    width: 13rem;
+    object-fit: cover;
 }
